@@ -1,0 +1,5 @@
+node_modules/
+dist/
+
+# playground setting
+!local_init.vim

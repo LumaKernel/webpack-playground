@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "module": "esnext",
+    "target": "esnext",
+    "jsx": "react",
+    "sourceMap": true,
+    "allowJs": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ScriptHost",
+      "ES2020"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/scripts/*"]
+    }
+  },
+  "include": ["src/scripts/**/*"],
+  "exclude": ["node_modules"]
+}

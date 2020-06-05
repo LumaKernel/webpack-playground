@@ -1,0 +1,19 @@
+@import "_variables.scss";
+
+:root {
+  font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  &::before {
+    content: '';
+    border-left: solid 2px $black;
+    padding-left: 6px;
+    white-space: nowrap;
+  }
+}
